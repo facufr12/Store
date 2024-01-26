@@ -1,0 +1,24 @@
+
+.AppBar {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 40px;
+    background-color: "#595959";
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    background-color;
+}
+.Toolbar-appbar {
+    
+    padding: 0px;
+
+    margin: 0px;
+  }
+
+  .Typography-appbar {
+    font-family: "Mate", serif;
+    color: rgb(231, 227, 222);
+    padding: 0px;
+    margin: 0px;
+  }

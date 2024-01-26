@@ -4,10 +4,19 @@ import './Marquesina.css'; // Asegúrate de tener un archivo CSS para los estilo
 
 const Marquesina = () => {
   return (
-    <div className="marquee-container">
+    <div id="marquee-container" className="marquee-container">
       <Typography className="marquee-text">
-        20% de descuentos en todas las prendas los fines de semana. Realizamos envíos a todo el país.
-      </Typography>
+       - 20% de descuentos en todas las prendas los fines de semana. Realizamos envíos a todo el país
+       - 20% de descuentos en todas las prendas los fines de semana. Realizamos envíos a todo el país
+       - 20% de descuentos en todas las prendas los fines de semana. Realizamos envíos a todo el país
+       - 20% de descuentos en todas las prendas los fines de semana. Realizamos envíos a todo el país
+       - 20% de descuentos en todas las prendas los fines de semana. Realizamos envíos a todo el país
+       - 20% de descuentos en todas las prendas los fines de semana. Realizamos envíos a todo el país
+       - 20% de descuentos en todas las prendas los fines de semana. Realizamos envíos a todo el país
+       - 20% de descuentos en todas las prendas los fines de semana. Realizamos envíos a todo el país
+       
+     
+     </Typography>
     </div>
   );
 };

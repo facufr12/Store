@@ -13,23 +13,13 @@
   font-family: "Imbue", serif;
 }
 
-.AppBar {
-  display: flex;
-  max-width: 900px;
-  margin: auto;
-  border-radius: 40px;
-  background-color: "#595959";
-  font-family: "Manrope", sans-serif;
-  text-align: center;
-}
+
 .Typography {
   font-family: "Mate", serif;
   color: rgb(231, 227, 222);
   
 }
-.Toolbar {
-  font-family: "Imbue", serif;
-}
+
 
 span {
   font-size: 25px;
