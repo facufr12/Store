@@ -3,17 +3,23 @@
     top: 0;
     left: 0;
     width: 100%;
-    color:  #868381;
+    color: #a5897a;
     background-color:  #a5897a;
     position: absolute;
+    
     margin-top: 0;
   }
   
+  .marquee-container .marquee-text {
+    font-size: 15px;
+  }
+
+
   .marquee-text {
     background-color:#a5897a;
     color: #ffffff;
     text-align: center;
-    padding: 11px;
+    padding: 10px;
     white-space: nowrap;
     animation: marquee 50s linear infinite;
   }

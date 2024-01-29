@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@300;400;500;700&display=swap");
+
 #root {
   max-width: 1280px;
   margin: auto;
@@ -8,7 +10,6 @@
 
 .Button {
   padding: 10px;
-  background-color: ;
 
   font-family: "Imbue", serif;
 }
@@ -44,11 +45,11 @@ h6,
 h7 {
   font-family: "Imbue", serif;
   margin: 1em 0 0.5em;
-  font-size: larger;
+  font-size: large;
   line-height: 1.2em;
 }
 
-p,
+
 ,
 h2 {
   font-family: "Imbue", serif;
@@ -69,3 +70,28 @@ h2 {
 }
 
 
+.icons-footer {
+  display: flex;
+  justify-content: space-around;
+  font: 40;
+  width: 300px;
+  height: 30px;
+  margin: auto;
+}
+
+.footer{
+  background-color:#a5897a;
+}
+
+.Toolbar-appbar{
+  
+}
+
+.logo {
+  font-family: "Monoton", cursive;
+  color: #fff;
+  font-size: 10rem;
+}
+.p{
+  color: white;
+}

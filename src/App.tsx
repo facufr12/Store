@@ -6,33 +6,27 @@ import Home from "./components/Home";
 import Card from "./components/Card";
 import Marquesina from "./components/Marquesina";
 import Footer from "./components/Footer";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Servicios from "./components/Servicios";
+import Packs from "./components/Packs";
+import Regiones from "./components/Regiones";
+import Nosotros from "./components/Nostros";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-const App = () => {
+export default function App() {
   return (
     <>
       <Marquesina />
-      <BrowserRouter>
+      <Router>
         <NavBar />
-        <div className="Cardcontainer">
-          <Card />
-          <Card />
-          <Card />
-
-          <Card />
-
-          <Card />
-
-          <Card />
-        </div>
         <Routes>
-          <Route path="/home" element={<Home />} />
-          <Route path="/not-found" element={<NotFound />} />
+          <Route path="/" element={<Nosotros />}></Route>
+          <Route path="/servicios" element={<Servicios />}></Route>
+          <Route path="/packs" element={<Packs />}></Route>
+          <Route path="/regiones" element={<Regiones />}></Route>ç
+          <Route path="/nosotros" element={<Nosotros />}></Route>
         </Routes>
-      </BrowserRouter>
+      </Router>
       <Footer />
     </>
   );
-};
-
-export default App;
+}

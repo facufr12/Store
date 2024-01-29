@@ -1,0 +1,46 @@
+.nosotros-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .nosotros-title {
+    margin-top: 20px;
+    
+    font-size: 48px;
+    font-weight: bold;
+    color: #a5897a;
+    margin-bottom: 40px;
+  }
+  
+  .nosotros-description {
+    font-size: 26px;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .nosotros-image {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+    margin-top:  40px;
+  }
+  
+  .nosotros-contact-info {
+    font-size: 26px;
+    color: white
+  }
+  
+  .nosotros-contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  .nosotros-contact-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .nosotros-contact-info a:hover {
+    text-decoration: underline;
+  }
