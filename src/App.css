@@ -95,3 +95,7 @@ h2 {
 .p{
   color: white;
 }
+
+.Toastify__toast-container {
+  left: 105px !important;
+}

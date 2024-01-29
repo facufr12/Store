@@ -10,12 +10,15 @@ import Servicios from "./components/Servicios";
 import Packs from "./components/Packs";
 import Regiones from "./components/Regiones";
 import Nosotros from "./components/Nostros";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Whatsapptoast from "./components/Whastapptoast";
 
 export default function App() {
   return (
     <>
-      <Marquesina />
+    <Whatsapptoast />
+        <Marquesina />
       <Router>
         <NavBar />
         <Routes>
@@ -26,7 +29,9 @@ export default function App() {
           <Route path="/nosotros" element={<Nosotros />}></Route>
         </Routes>
       </Router>
+      
+
       <Footer />
-    </>
+   </>
   );
 }

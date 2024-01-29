@@ -1,0 +1,22 @@
+/* VideoBackground.css */
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Establece la altura del video para que ocupe toda la pantalla */
+    overflow: hidden;
+  }
+  
+  .video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta el tamaño del video para cubrir todo el contenedor */
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1; /* Asegúrate de que el contenido esté encima del video */
+    /* Estilos adicionales para el contenido */
+  }
